@@ -24,7 +24,7 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Topic :: Text Processing :: Indexing",
 ]
-dependencies = ["torch>=2.6,<3", "transformers>=4.57.1,<5", "peft>=0.17,<0.19"]
+dependencies = ["torch>=2.6,<3", "transformers>=4.57.1,<6", "peft>=0.17,<0.19"]
 
 [project.urls]
 Homepage = "https://github.com/mnabid05/open-stair"
@@ -34,7 +34,7 @@ Issues = "https://github.com/mnabid05/open-stair/issues"
 
 [project.optional-dependencies]
 pdf = ["pypdf>=5,<7"]
-neural = ["torch>=2.6,<3", "transformers>=4.57.1,<5", "peft>=0.17,<0.19"]
+neural = ["torch>=2.6,<3", "transformers>=4.57.1,<6", "peft>=0.17,<0.19"]
 dev = ["ruff>=0.11,<1", "build>=1.2,<2", "twine>=6,<7"]
 
 [project.scripts]

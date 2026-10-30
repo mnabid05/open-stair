@@ -35,7 +35,7 @@ Issues = "https://github.com/mnabid05/open-stair/issues"
 [project.optional-dependencies]
 pdf = ["pypdf>=5,<7"]
 neural = ["torch>=2.6,<3", "transformers>=4.57.1,<5", "peft>=0.17,<0.19"]
-dev = ["ruff>=0.11,<1", "build>=1.2,<2", "twine>=6,<7"]
+dev = ["ruff>=0.11,<1", "build>=1.2,<2", "twine>=6,<8"]
 
 [project.scripts]
 open-stair = "open_stair.cli:main"

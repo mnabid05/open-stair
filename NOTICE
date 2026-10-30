@@ -1,0 +1,12 @@
+Open STAIR
+Copyright 2026 Open STAIR contributors
+
+An independent implementation inspired by:
+STAIR (STructure Aware Information Retriever): A novel dataset and LLM based
+retriever for document structure augmentation, by Vineet Kumar, Meghanadh
+Pulivarthi, Vishwajeet Kumar, Jaydeep Sen, Riyaz Ahmad Bhat, and Sachindra Joshi.
+https://arxiv.org/abs/2609.03874
+
+This project is not affiliated with or endorsed by IBM or the paper's authors.
+No upstream implementation, model weights, or SearchTome data are included.
+IBM and other product names remain trademarks of their respective owners.

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite the original STAIR paper when using its method; cite this software for this implementation."
+title: "Open STAIR: Independent structure-aware generative retrieval"
+type: software
+version: 0.2.1
+date-released: 2026-10-29
+repository-code: https://github.com/mnabid05/open-stair
+url: https://github.com/mnabid05/open-stair
+license: Apache-2.0
+authors:
+  - name: "Open STAIR contributors"
+references:
+  - type: article
+    title: "STAIR (STructure Aware Information Retriever): A novel dataset and LLM based retriever for document structure augmentation"
+    authors:
+      - family-names: Kumar
+        given-names: Vineet
+      - family-names: Pulivarthi
+        given-names: Meghanadh
+      - family-names: Kumar
+        given-names: Vishwajeet
+      - family-names: Sen
+        given-names: Jaydeep
+      - family-names: Bhat
+        given-names: Riyaz Ahmad
+      - family-names: Joshi
+        given-names: Sachindra
+    year: 2026
+    doi: 10.48550/arXiv.2609.03874

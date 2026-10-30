@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible defect in training, retrieval, or packaging.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use SECURITY.md for sensitive reports. Remove secrets and private corpus/model data."
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include a small public example, commands, and the complete error.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Open STAIR/Python/Torch/Transformers/PEFT versions, OS, device, model ID/revision, and training settings.
+    validations:
+      required: true

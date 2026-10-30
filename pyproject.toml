@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-stair"
+version = "0.2.1"
+description = "STAIR parametric retrieval: train corpus knowledge into language model weights"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Open STAIR contributors"}]
+keywords = ["retrieval", "rag", "table-of-contents", "stair"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Text Processing :: Indexing",
+]
+dependencies = ["torch>=2.6,<3", "transformers>=4.57.1,<5", "peft>=0.17,<0.19"]
+
+[project.urls]
+Homepage = "https://github.com/mnabid05/open-stair"
+Repository = "https://github.com/mnabid05/open-stair"
+Documentation = "https://github.com/mnabid05/open-stair#readme"
+Issues = "https://github.com/mnabid05/open-stair/issues"
+
+[project.optional-dependencies]
+pdf = ["pypdf>=5,<7"]
+neural = ["torch>=2.6,<3", "transformers>=4.57.1,<5", "peft>=0.17,<0.19"]
+dev = ["ruff>=0.11,<1", "build>=1.2,<2", "twine>=6,<7"]
+
+[project.scripts]
+open-stair = "open_stair.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+open_stair = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,11 @@
+{"query":"What does an inverted index map terms to?","split":"train","section_path":["Field Guide to Retrieval","Foundations","Inverted indexes"]}
+{"query":"How are semantic vectors used to find passages?","split":"train","section_path":["Field Guide to Retrieval","Foundations","Vector search"]}
+{"query":"What structure does a table of contents preserve?","split":"train","section_path":["Field Guide to Retrieval","Structured retrieval","Table of contents"]}
+{"query":"How does a generative retriever learn section labels?","split":"train","section_path":["Field Guide to Retrieval","Structured retrieval","Generative retrieval"]}
+{"query":"What must happen to the neural adapter after a document changes?","split":"train","section_path":["Field Guide to Retrieval","Operations","Updating documents"]}
+{"query":"What does normalized discounted cumulative gain measure?","split":"train","section_path":["Field Guide to Retrieval","Operations","Measuring retrieval"]}
+{"query":"Which method embeds a query for nearest neighbor lookup?","split":"dev","section_path":["Field Guide to Retrieval","Foundations","Vector search"]}
+{"query":"How do posting lists avoid scanning every document?","split":"test","section_path":["Field Guide to Retrieval","Foundations","Inverted indexes"]}
+{"query":"What restricts generation to existing leaf section labels?","split":"test","section_path":["Field Guide to Retrieval","Structured retrieval","Generative retrieval"]}
+{"query":"How can I detect stale model artifacts?","split":"test","section_path":["Field Guide to Retrieval","Operations","Updating documents"]}
+{"query":"Which metric measures the position of the first relevant result?","split":"test","section_path":["Field Guide to Retrieval","Operations","Measuring retrieval"]}
